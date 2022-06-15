@@ -17,9 +17,9 @@ namespace UnitTestProject1
         }
 
 
-        //Test failed to test if not uploaded to Gibhat
-        [TestMethod]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.Ignore]
+       
+        [Test]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.Ignore("Test failed to test if not uploaded to Gibhat")]
         public void TestCanDoUnitTesting2()
         {
             NUnit.Framework.Assert.True(false);
