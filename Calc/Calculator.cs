@@ -8,9 +8,9 @@ namespace CalculatorApp
 {
     public class Calculator
     {
-        public static Double Add(double x, double y)
+        public static Double Add(double a, double b)
         {
-            return x + y; 
+            return a + b; 
         }
 
         public static Double Subtract(double x, double y)
