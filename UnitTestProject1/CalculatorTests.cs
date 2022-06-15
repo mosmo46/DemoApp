@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using CalculatorApp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
@@ -49,3 +50,6 @@ namespace UnitTestProject1
 
     }
 }
+=======
+Succeeded
+>>>>>>> a9d93466c4a52eca7b9db1fee60332ca2730dee7
