@@ -6,23 +6,23 @@ using Xunit;
 
 namespace UnitTestProject1
 {
-    [TestClass]
+    [TestFixture]
     public class CalculatorTests: Calculator
     {
         
-        [TestMethod]
+        [Test]
         public void TestCanDoUnitTesting()
         {
             NUnit.Framework.Assert.True(true);
         }
-        [TestMethod]
+        [Test]
         public void TestRes()
         {
             int n1 = 5;
             int n2 = 2;
          NUnit.Framework.Assert.AreEqual(n1 - n2, Calculator.Subtract(n1, n2));
         }
-        [TestMethod]
+        [Test]
 
         public void TestSum()
         {            int n1 = 10;
@@ -30,7 +30,7 @@ namespace UnitTestProject1
            NUnit.Framework.Assert.AreEqual(n1 + n2, Calculator.Add(n1, n2));
         }
 
-        [TestMethod]
+        [Test]
         public void TestDiv()
         {
             int n1 = 10;
@@ -38,7 +38,7 @@ namespace UnitTestProject1
             NUnit.Framework.Assert.AreEqual(n1 / n2, Calculator.Divide(n1, n2));
         }
 
-        [TestMethod]
+        [Test]
         public void TestMul()
         {
             int n1 = 3;
