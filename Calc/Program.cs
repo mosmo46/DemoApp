@@ -18,11 +18,6 @@ namespace CalculatorApp
         static void Main(string[] args)
         {
 
-
-     
-            
-
-
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
 
@@ -64,30 +59,6 @@ namespace CalculatorApp
             else
             {
                 Console.WriteLine("You have made an invalid selection");
-            }
-        }
-
-        public class Serializer
-        {
-            public ReadingXmlFile.testrun Deserialize<T>(string input) where T : class
-            {
-                XmlSerializer ser = new XmlSerializer(typeof(T));
-
-                using (StringReader sr = new StringReader(input))
-                {
-                    return (ReadingXmlFile.testrun)ser.Deserialize(sr);
-                }
-            }
-
-            public string Serialize<T>(T ObjectToSerialize)
-            {
-                XmlSerializer xmlSerializer = new XmlSerializer(ObjectToSerialize.GetType());
-
-                using (StringWriter textWriter = new StringWriter())
-                {
-                    xmlSerializer.Serialize(textWriter, ObjectToSerialize);
-                    return textWriter.ToString();
-                }
             }
         }
     }
