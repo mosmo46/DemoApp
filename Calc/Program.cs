@@ -23,14 +23,14 @@ namespace CalculatorApp
             Console.WriteLine("moshe test");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please insert the second tmp");
+            Console.WriteLine("Please insert the second tmp "); 
             Console.WriteLine("Please insert the second number");
             Console.WriteLine("Please insert the second number");
 
             double secondNumber = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please select your operation");
-            Console.WriteLine("+: for addition");
+            Console.WriteLine("+: for addition" );
             Console.WriteLine("-: for subtraction");
             Console.WriteLine("*: for multiplication");
             Console.WriteLine("/: for division");
