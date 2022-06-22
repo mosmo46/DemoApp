@@ -64,4 +64,3 @@ namespace CalculatorApp
     }
 }
 
-Added this new line
