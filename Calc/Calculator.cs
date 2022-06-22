@@ -10,7 +10,7 @@ namespace CalculatorApp
     {
         public static Double Add(double x, double y)
         {
-             return x + y;
+              return x + y;
         }
 
         public static Double Subtract(double x, double y)
