@@ -23,7 +23,7 @@ namespace CalculatorApp
             Console.WriteLine("moshe test");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please insert the second tmp  ");
+            Console.WriteLine("Please insert the second tmp  mulu");
             Console.WriteLine("Please insert the second number");
             Console.WriteLine("Please insert the second number");
 
