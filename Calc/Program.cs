@@ -20,6 +20,7 @@ namespace CalculatorApp
 
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
+            Console.WriteLine("moshe test");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please insert the second tmp");
