@@ -30,7 +30,7 @@ namespace CalculatorApp
             double secondNumber = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please select your operation");
-            Console.WriteLine("+: for addition" );
+            Console.WriteLine("+: for addition"    );
             Console.WriteLine("-: for subtraction");
             Console.WriteLine("*: for multiplication");
             Console.WriteLine("/: for division");
