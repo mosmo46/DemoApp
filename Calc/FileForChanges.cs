@@ -1,1 +1,0 @@
-System.Collections.ObjectModel.ReadOnlyCollection`1[Octokit.RepositoryContent]
