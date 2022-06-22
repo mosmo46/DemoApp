@@ -21,9 +21,10 @@ namespace CalculatorApp
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
             Console.WriteLine("moshe test");
+            Console.WriteLine("moshe test1");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please insert the second tmp b"); 
+            Console.WriteLine("Please insert the second tmp");
             Console.WriteLine("Please insert the second number");
             Console.WriteLine("Please insert the second number");
 
