@@ -15,14 +15,15 @@ namespace CalculatorApp
     {
 
         static void Main(string[] args)
-        {
-
+        { 
+            Console.WriteLine("tmppppp");          
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
             Console.WriteLine("moshe test");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please insert the second tmp  c ");
+            Console.WriteLine("Please insert the second tmp  c " +
+                "");
             Console.WriteLine("Please insert the second number");
             Console.WriteLine("Please insert the second number");
 
@@ -39,15 +40,15 @@ namespace CalculatorApp
             if (operand == "+")
             {
                 var result = Add(firstNumber, secondNumber);
-                Console.WriteLine(result);
+                Console.WriteLine(result);  
             }
-            else if (operand == "-")
+            else if (operand == "-") 
             {
                 var result = Subtract(firstNumber, secondNumber);
                 Console.WriteLine(result);
-            }
+            } 
             else if (operand == "*")
-            {
+            {    
                 var result = Multiply(firstNumber, secondNumber);
                 Console.WriteLine(result);
             }
