@@ -16,7 +16,7 @@ namespace CalculatorApp
 
         static void Main(string[] args)
         { 
-            Console.WriteLine("tmp");          
+            Console.WriteLine("tmp  d");          
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
             Console.WriteLine("moshe test");
