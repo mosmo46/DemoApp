@@ -13,7 +13,6 @@ namespace UnitTestProject1
         [Test]
         public void TestCanDoUnitTesting()
         {
-            Console.WriteLine("gil test");
             NUnit.Framework.Assert.True(true);
         }
 
