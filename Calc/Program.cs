@@ -38,8 +38,8 @@ namespace CalculatorApp
             var operand = Console.ReadLine();
 
             if (operand == "+")
-            { 
-                var result = Add(firstNumber, secondNumber);   
+            {  
+                var result = Add(firstNumber, secondNumber);     
                 Console.WriteLine(result);  
             }
             else if (operand == "-") 
