@@ -16,7 +16,7 @@ namespace UnitTestProject1
             NUnit.Framework.Assert.True(true);
         }
 
-        
+            
         [Test]
         public void TestRes()
         {
@@ -25,7 +25,7 @@ namespace UnitTestProject1
          NUnit.Framework.Assert.AreEqual(n1 - n2, Calculator.Subtract(n1, n2));
         }
         [Test]
-       // sss
+
         public void TestSum()
         {            int n1 = 10;
             int n2 = 3;
