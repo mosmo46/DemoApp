@@ -16,7 +16,7 @@ namespace UnitTestProject1
             NUnit.Framework.Assert.True(true);
         }
 
-            
+        
         [Test]
         public void TestRes()
         {
