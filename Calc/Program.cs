@@ -27,7 +27,7 @@ namespace CalculatorApp
             Console.WriteLine("Please insert the second number");
 
             double secondNumber = Convert.ToDouble(Console.ReadLine());
-
+            Console.WriteLine("molomolomolomolo");
             Console.WriteLine("Please select your operation");
             Console.WriteLine("+: for addition");
             Console.WriteLine("-: for subtraction");
