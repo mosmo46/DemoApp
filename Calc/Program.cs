@@ -22,11 +22,17 @@ namespace CalculatorApp
             Console.WriteLine("Please insert the first number");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please insert the second tmp");
-            Console.WriteLine("Please insert the second number");
+
             Console.WriteLine("Please insert the second number");
 
             double secondNumber = Convert.ToDouble(Console.ReadLine());
+
+
+            Console.WriteLine("molomolomolomolo");
+            Console.WriteLine("molomolomolomolo");
+            Console.WriteLine("molomolomolomolo");
+            Console.WriteLine("molomolomolomolo");
+
 
             Console.WriteLine("Please select your operation");
             Console.WriteLine("+: for addition");
@@ -63,4 +69,6 @@ namespace CalculatorApp
         }
     }
 }
+
+
 
