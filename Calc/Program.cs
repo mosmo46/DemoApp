@@ -28,11 +28,6 @@ namespace CalculatorApp
             double secondNumber = Convert.ToDouble(Console.ReadLine());
 
 
-            Console.WriteLine("molomolomolomolo");
-            Console.WriteLine("molomolomolomolo");
-            Console.WriteLine("molomolomolomolo");
-            Console.WriteLine("molomolomolomolo");
-
 
             Console.WriteLine("Please select your operation");
             Console.WriteLine("+: for addition");
