@@ -14,10 +14,9 @@ namespace CalculatorApp
     internal class Program : Calculator
     {
 
-///gilllllllllllllllllllllll
         static void Main(string[] args)
         {
-            Console.WriteLine("moshe test");
+            Console.WriteLine("Lior");
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
 
@@ -28,7 +27,7 @@ namespace CalculatorApp
             double secondNumber = Convert.ToDouble(Console.ReadLine());
 
 
-
+            
             Console.WriteLine("Please select your operation");
             Console.WriteLine("+: for addition");
             Console.WriteLine("-: for subtraction");
