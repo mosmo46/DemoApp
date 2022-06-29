@@ -16,7 +16,7 @@ namespace CalculatorApp
 
         static void Main(string[] args)
         {
-            Console.WriteLine("jsabdijnasdkjasdoijasndjandsoijasdoiasdoasdasd");
+            Console.WriteLine("ךןדשגשדגשגדלש");
             Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
 
