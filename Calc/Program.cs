@@ -18,9 +18,7 @@ namespace CalculatorApp
         {
 
             Console.WriteLine("moshe test");
-            Console.WriteLine("moshe test");
-            Console.WriteLine("moshe test");
-            Console.WriteLine("This program performs basic math operation on 2 numbers");
+           Console.WriteLine("This program performs basic math operation on 2 numbers");
             Console.WriteLine("Please insert the first number");
 
             double firstNumber = Convert.ToDouble(Console.ReadLine());
